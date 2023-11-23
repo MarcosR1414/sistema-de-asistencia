@@ -1,5 +1,9 @@
 body {
-    background: rgba(4, 40, 68, 0.85) !important;
+    background-image: url('http://localhost/asistencia/assets/images/bg.jpg');
+    background-size: cover; /* Esto ajustará la imagen para cubrir todo el body */
+    background-repeat: no-repeat; /* Esto evita que la imagen se repita */
+    height: 100vh;
+    margin: 0;
     height: 100vh !important;
 }
 

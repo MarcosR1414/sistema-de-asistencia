@@ -18,21 +18,24 @@
     <link href="<?php echo RUTA . 'assets/'; ?>css/login.css" rel="stylesheet">
     <link href="<?php echo RUTA . 'assets/'; ?>css/snackbar.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo RUTA . 'assets/'; ?>css/animate.min.css"/>
+
+
 </head>
 
 <body>
+    
 
     <div class="wrapper">
         <form class="login animate__animated animate__rotateInUpLeft" id="frmLogin" autocomplete="off">
-            <p class="title">Login</p>
-            <input type="text" class="animate__animated animate__slideInDown" placeholder="E-mail" id="email" autofocus />
+            <p class="title">Iniciar Sesion</p>
+            <input type="text" class="animate__animated animate__slideInDown" placeholder="Correo" id="email" autofocus />
             <input type="password" class="animate__animated animate__slideInUp" id="password" placeholder="Password" />
             <button type="submit">
                 <i class="spinner"></i>
-                <span class="state">Login</span>
+                <span class="state">Ingresar</span>
             </button>
         </form>
-        <footer><a target="blank" href="https://sistemasfree.com/">Site</a></footer>
+        <footer><a target="blank" href="https://senati.blackboard.com/">Senati</a></footer>
     </div>
 
     <script src="<?php echo RUTA . 'assets/'; ?>vendor/js/jquery.min.js"></script>

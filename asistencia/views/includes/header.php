@@ -29,18 +29,18 @@
     <nav class="sidebar sidebar-offcanvas" id="sidebar">
       <ul class="nav">
         <li class="nav-item sidebar-category">
-          <p>Navigation</p>
+          <p>Navegar</p>
           <span></span>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="plantilla.php">
             <i class="mdi mdi-view-quilt menu-icon"></i>
-            <span class="menu-title">Dashboard</span>
+            <span class="menu-title">Panel</span>
             <div class="badge badge-info badge-pill">2</div>
           </a>
         </li>
         <li class="nav-item sidebar-category">
-          <p>Components</p>
+          <p>Opciones</p>
           <span></span>
         </li>
         <li class="nav-item">
@@ -121,7 +121,7 @@
               <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
                 <a class="dropdown-item" href="#" onclick="salir()">
                   <i class="mdi mdi-logout text-primary"></i>
-                  Logout
+                  Salir
                 </a>
               </div>
             </li>
